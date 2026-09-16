@@ -1,94 +1,86 @@
 # Dylan Dionich
 
-### Senior Software Engineer · Specialized on Backend
+### Senior Software Engineer · Backend
 
-Senior Software Engineer focused on backend systems, and financial technology.
+I build backend systems for financial products — fintech, KYC, compliance, onboarding — where the hard part usually isn't the code, but keeping a system correct and understandable while the rules around it keep changing.
 
-My experience spans fintech, financial systems, KYC, compliance, onboarding, and internal platforms, with a strong focus on building reliable systems for complex business and regulatory workflows.
-Currently working at Blockchain.com, building backend systems supporting compliance, operations, finance, and onboarding.
+Currently at **Blockchain.com**, on backend systems across compliance, operations, finance and onboarding. On the side I design and ship products at **[Bimo](https://bimolabs.com)**.
 
 [LinkedIn](https://www.linkedin.com/in/dionich/) · [Personal GitHub](https://github.com/ddionich) · [Work GitHub](https://github.com/ddionich-bc)
 
 ---
 
-## About
+## Projects
 
-I build backend systems with a focus on reliability, maintainability, and performance.
+### [nafti.app](https://nafti.app) · in progress
 
-My experience spans backend development, data infrastructure, event-driven systems, observability, and full-stack product development when required.
+<!-- TODO: una o dos líneas sobre qué resuelve Nafti y para quién. -->
+<!-- Y si querés, una línea técnica: qué parte fue la interesante de construir. -->
 
-I enjoy working on problems where the challenge is not just writing code, but designing a system that remains understandable and reliable as it grows.
+Built at **[Bimo](https://bimolabs.com)** — a small studio I use to take my own products end to end: API, frontend, infrastructure and everything in between. Source is private for now.
+
+---
+
+## What I work on
+
+Backend development, data infrastructure, event-driven systems and observability — plus full-stack product work when a project needs it.
+
+<!-- REVISAR: el párrafo de abajo lo redacté como ejemplo concreto a partir de
+     tu descripción general. Ajustalo o reescribilo para que describa trabajo
+     tuyo real antes de mergear. -->
+Most of what I've built lives in regulated workflows: onboarding pipelines that depend on external providers, compliance processes where a retry has to be idempotent because a duplicate is a regulatory problem and not just a bug, and internal platforms that other teams depend on daily.
+
+**Interested in:** backend architecture · distributed systems · event-driven architecture · data-intensive applications · AI-assisted software engineering
 
 ---
 
 ## Stack
 
-### Backend
+**Backend**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=kotlin,java,spring,postgres,mysql,redis,kafka" />
+  <img alt="Kotlin, Java, Spring, PostgreSQL, MySQL, Redis, Kafka" src="https://skillicons.dev/icons?i=kotlin,java,spring,postgres,mysql,redis,kafka" />
 </p>
 
-Kotlin · Java · Ktor · Spring Boot · Postgres · Microservices
+Kotlin · Java · Ktor · Spring Boot · PostgreSQL · MySQL · Redis · Kafka · Microservices
 
-### Frontend
+**Frontend**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,vite,js" />
+  <img alt="React, Next.js, Vite, JavaScript" src="https://skillicons.dev/icons?i=react,nextjs,vite,js" />
 </p>
 
 React · Next.js · Vite · JavaScript
 
-### Infrastructure & Observability
+**Infrastructure & Observability**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,linux,bash,git,github" />
+  <img alt="Docker, Kubernetes, AWS, GCP, Linux, Bash, Git, GitHub" src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,linux,bash,git,github" />
 </p>
 
 Docker · Kubernetes · AWS · GCP · Linux · Bash · Git · Datadog
 
 ---
 
-## Engineering Interests
-
-* Backend architecture
-* Distributed systems
-* Event-driven architecture
-* Data-intensive applications
-* AI-assisted software engineering
-
----
-
-## Currently
-
-**Blockchain.com**
-
-Senior Software Engineer working on backend systems across compliance, operations, finance, and onboarding.
-
-My work involves Kotlin, Ktor, React, SQL, Kafka, PostgreSQL, Redis, Docker, and observability tooling.
-
----
-
 ## GitHub
 
-Work GitHub
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ddionich-bc&hide_border=true&theme=transparent" />
-</p>
-
-Personal GitHub
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ddionich&hide_border=true&theme=transparent" />
-</p>
+<table>
+  <tr>
+    <td align="center"><b>Work</b><br/><sub>@ddionich-bc</sub></td>
+    <td align="center"><b>Personal</b><br/><sub>@ddionich</sub></td>
+  </tr>
+  <tr>
+    <td>
+      <img alt="Contribution streak for @ddionich-bc" src="https://streak-stats.demolab.com/?user=ddionich-bc&hide_border=true&theme=transparent" />
+    </td>
+    <td>
+      <img alt="Contribution streak for @ddionich" src="https://streak-stats.demolab.com/?user=ddionich&hide_border=true&theme=transparent" />
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Projects
-
-Work in progress!
-
----
-
 <p align="center">
-  <sub>Software engineer. Product builder. Always learning.</sub>
+  <sub>Building at <a href="https://bimolabs.com">Bimo</a> · Reach me on <a href="https://www.linkedin.com/in/dionich/">LinkedIn</a></sub>
 </p>
