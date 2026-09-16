@@ -12,13 +12,15 @@ Currently at **Blockchain.com**, on backend systems across compliance, operation
 
 ## Projects
 
-### [nafti.app](https://nafti.app) · MVP, frontend prototype
+### [nafti.app](https://nafti.app) · beta
 
 A web app that helps drivers decide **where and when to refuel**. It compares the official pump price against prices reported by the community, turns that gap into an actual savings figure, and ranks nearby stations with a single score — the Nafti Score — built from trust, distance and convenience.
 
-The hard part isn't the map, it's the data: prices are crowdsourced, so a recommendation is only worth as much as the confidence you can put behind each report. That's what the score exists to express, and it's what makes the product either useful or useless.
+The real problem underneath is cold start: the app is only valuable with fresh community reports, and people only report once it's already valuable. Nafti breaks out of that loop using an Argentine government dataset — but stations aren't required to publish per-station prices, so its freshness is wildly uneven. Some stations reported yesterday; others last reported more than five years ago. Under Argentine inflation a five-year-old price isn't approximately right, it's noise. Showing nothing isn't an option either.
 
-Core flows are modeled in a mobile-first frontend: station discovery with a recommended pick, station detail with price history, fuels, services and promos, price reporting, a trip planner with estimated cost, and a contributor profile with email/password auth gating the personal features.
+So most of the work has gone into two things at once: squeezing the most accurate price possible out of data of very uneven age, and being explicit with the user about how much any given price can be trusted. The transparency is a feature, not a disclaimer — it's what makes a stale number usable instead of misleading.
+
+Mobile-first, currently in beta: station discovery with a recommended pick, station detail with price history, fuels, services and promos, community price reporting, a trip planner with estimated cost, and a contributor profile with email/password auth gating the personal features.
 
 Built at **[Bimo](https://bimolabs.com)** — a small studio I use to take my own products end to end: API, frontend, infrastructure and everything in between. Source is private for now.
 
