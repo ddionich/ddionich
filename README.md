@@ -12,10 +12,13 @@ Currently at **Blockchain.com**, on backend systems across compliance, operation
 
 ## Projects
 
-### [nafti.app](https://nafti.app) · in progress
+### [nafti.app](https://nafti.app) · MVP, frontend prototype
 
-<!-- TODO: una o dos líneas sobre qué resuelve Nafti y para quién. -->
-<!-- Y si querés, una línea técnica: qué parte fue la interesante de construir. -->
+A web app that helps drivers decide **where and when to refuel**. It compares the official pump price against prices reported by the community, turns that gap into an actual savings figure, and ranks nearby stations with a single score — the Nafti Score — built from trust, distance and convenience.
+
+The hard part isn't the map, it's the data: prices are crowdsourced, so a recommendation is only worth as much as the confidence you can put behind each report. That's what the score exists to express, and it's what makes the product either useful or useless.
+
+Core flows are modeled in a mobile-first frontend: station discovery with a recommended pick, station detail with price history, fuels, services and promos, price reporting, a trip planner with estimated cost, and a contributor profile with email/password auth gating the personal features.
 
 Built at **[Bimo](https://bimolabs.com)** — a small studio I use to take my own products end to end: API, frontend, infrastructure and everything in between. Source is private for now.
 
